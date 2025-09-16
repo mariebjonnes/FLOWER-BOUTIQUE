@@ -1,0 +1,223 @@
+/* General settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #43040a;
+    min-height: 100vh;
+}
+
+/* Nav-bar design*/
+.navbar-custom {
+    background-color: #43040a;
+}
+
+.navbar-custom .navbar-brand {
+    color: #e7a483;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    font-size: 1.1rem;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #e7a483;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
+
+.navbar-custom .nav-link {
+    color: #e7a483;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link.active {
+    color: #e7a483 !important;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
+
+.navbar-custom .nav-link.active:hover {
+    color: #ffffff !important;
+}
+
+/* Banner img section */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+#banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4f171c;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: serif;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 1;
+}
+
+/*Design section our bouquets*/
+
+.image-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e7a483;
+}
+.rubrik {
+    color: #4f171c;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.image-section {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: #333;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Design about us section */
+.about-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e7a483;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding: 20px;
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box {
+    padding: 0;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.about-box h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.about-box p {
+    font-family: serif;
+    font-style: italic;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer design */
+.fot {
+    background-color: #43040a;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.fot p {
+    color: #e7a483 !important;
+    margin: 0;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (min-width: 960px) {
+    #banner img {
+        height: 500px;
+    }
+}
